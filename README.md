@@ -1,0 +1,1 @@
+In this project I replicate the Google search page. I applied a grid box to center and justify the Google image and seach boxes. Additionally, I created a fixed Nav bar and Footer utilizing floating attributes. 

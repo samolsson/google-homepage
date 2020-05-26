@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: auto;
+                overflow: hidden;
+                font-size: 16px;
+            }
+            li {
+                padding: 5px;
+            }
+            li a {
+                display: block;
+                padding: 8px;
+                color: darkgrey;
+                text-decoration: none;
+                font-family: "Roboto";
+            }
+           .footer {
+               position: fixed;
+               bottom: 0;
+               width: 95%;
+           }
+            .header {
+                position: fixed;
+                top: 0;
+                width: 95%;
+           }
+            .search {
+                min-height: 100px;
+                width: 95%;
+                display: grid;
+                grid-template-rows: 1fr;
+                gap: 7px; 
+            }
+            .img {
+                justify-self: center;
+                margin-top: 150px;
+            }
+            .input {
+                justify-self: center;
+                font-size: 8px;
+                font-family: "Roboto";
+            }
+            .box1 {
+                justify-self: center;
+                font-size: 8px;
+                font-family: "Roboto";
+            }
+            .box2 {
+                justify-self: center;
+                font-size: 8px;
+                font-family: "Roboto";
+           }
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <div class="header">
+                <ul>
+                    <li style="float:left"><a href="#About">About</a></li>
+                    <li style="float:left"><a href="#Store">Store</a></li>
+                    <li style="float:right"><a href="#Gmail">Gmail</a></li>
+                    <li style="float:right"><a href="#Images">Images</a></li>
+                </ul>
+            </div>
+    </nav>
+    </header>
+        <main>
+            <div class="search">
+                <div class="img"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+                alt="Google logo">
+                </div>
+                <div class="input"><input style="border-radius: 20px" type="text"></div>
+                <div class="box1"><button style="border-radius: 5px" type="Google Search">Google Search</button></div>
+                <div class="box2"><button style="border-radius: 5px" type="I'm feeling lucky">I'm Feeling Lucky</button></div>
+            </div>
+        </main>
+    </body>
+    <footer>
+    <div class="footer">
+        <ul>
+            <li style="float:left"><a href="#">Advertising</a></li>
+            <li style="float:left"><a href="#">Business</a></li>
+            <li style="float:left"><a href="#">How Search works</a></li>
+            <li style="float:right"><a href="#">Privacy</a></li>
+            <li style="float:right"><a href="#">Terms</a></li>
+            <li style="float:right"><a href="#">Settings</a></li>
+        </ul>
+        </div>
+    </footer>
+</html>
